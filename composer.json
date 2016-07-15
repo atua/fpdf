@@ -1,0 +1,15 @@
+{
+    "name": "atua/fpdf",
+    "description": "Unofficial PSR-4 compliant version of the FPDF library",
+    "homepage": "http://www.fpdf.org/",
+    "license": "no usage restriction",
+    "type": "library",
+    "require": {
+        "itbz/fpdf": "^1.7"
+    },
+    "autoload": {
+        "psr-4": {
+            "Atua\\": "src/Atua"
+        }
+    }
+}
